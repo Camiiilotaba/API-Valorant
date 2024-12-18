@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle Agente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="detalleAgente.js" defer></script>
+  </head>
+
+  <body id="body" class="bg-[#f5d1d4] text-[#53212b]">
+    <div class="container mx-auto p-6">
+      <button
+        id="theme-toggle"
+        class="p-2 bg-[#53212b] text-white rounded-lg hover:bg-[#bd3944] transition duration-300"
+      >
+        Cambiar Tema
+      </button>
+    </div>
+
+    <div class="container mx-auto p-6">
+      <button
+        id="back-btn"
+        class="flex items-center text-[#53212b] bg-[#fd4556] hover:bg-[#bd3944] font-bold p-3 rounded-lg transition duration-300"
+        onclick="window.location.href='index.html';"
+      >
+        <span class="mr-2">←</span> Volver
+      </button>
+    </div>
+
+    <div class="container mx-auto p-6">
+      <h1
+        class="text-3xl font-bold italic text-[#fffbf5] bg-[#fd4556] p-4 rounded-lg"
+      >
+        Detalles del Agente
+      </h1>
+
+      <section id="agent-details" class="mt-10"></section>
+    </div>
+
+    <footer class="bg-black text-[#fffbf5] py-8">
+      <div class="container mx-auto px-4 text-center">
+        <div class="mb-4 hover:text-[#fd4556] transition duration-300">
+          <img
+            src="Img/RiotGames-Logo.png"
+            alt="Riot Games Logo"
+            class="mx-auto w-32"
+          />
+        </div>
+
+        <p class="text-sm mb-4">
+          © 2020-2024 Riot Games, Inc. RIOT GAMES, VALORANT y todos los
+          logotipos relacionados son marcas registradas de Riot Games, Inc.
+        </p>
+
+        <div class="flex justify-center gap-6 text-xs font-semibold mb-4">
+          <a href="#" class="hover:text-[#fd4556] transition duration-300"
+            >AVISO DE PRIVACIDAD</a
+          >
+          <a href="#" class="hover:text-[#fd4556] transition duration-300"
+            >TÉRMINOS DE SERVICIO</a
+          >
+          <a href="#" class="hover:text-[#fd4556] transition duration-300"
+            >PREFERENCIAS DE COOKIES</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+#skins-scroll {
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+#skins-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+#skins-scroll::-webkit-scrollbar-track {
+  background-color: #fd4556;
+}
+
+#skins-scroll::-webkit-scrollbar-thumb {
+  background-color: #53212b;
+  border-radius: 8px;
+}
